@@ -1,14 +1,23 @@
 .navbar{
-  background-color: #BDD4E7;
-  display:flex;
-  justify-content: space-between;
+  background-color: #009688;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  justify-content: center;
+
+
 }
 
 .titre{
-  color: #F5EE9E;
-  text-align: center;
-  padding-left: 3%;
+  color:#FDB8BA;
+  text-align: end;
 }
+
+.logo{
+  display: flex;
+  justify-content: space-around;
+}
+
+
 
 .sidenav {
   height: 100%;
@@ -27,13 +36,13 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #3C78D8;
+  color: #1DE9B6;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #3C78D8;
+  color: #1DE9B6;
 }
 
 .sidenav ul {
@@ -60,8 +69,8 @@
   display: block;
   width: 35px;
   height: 5px;
-  background-color: #3C78D8;
-  margin: 6px 0;
+  background-color: #FDB8BA;
+  margin: 6px 1em;
 }
 
 .menu{
