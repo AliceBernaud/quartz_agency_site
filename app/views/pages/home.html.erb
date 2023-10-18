@@ -1,0 +1,28 @@
+<div class="navbar" data-controller="sidenav" >
+  <div>
+ <%= image_tag("", alt: "logo quartz agency")%>
+  </div>
+
+  <div class="titre">
+    <h1>Quartz Agency </h1>
+  </div>
+  <div  data-controller="navbar"  data-navbar-target="openBtn">
+    <button class="menu" data-action="click->navbar#openNav" >
+      <span class="burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </button>
+  </div>
+  <div class="sidenav" data-controller="navbar"  data-navbar-target="closeBtn">
+    <button id="closeBtn" class="close" data-action="click->navbar#closeNav">×</button>
+    <ul>
+      <li><a href="#">A propos</a></li>
+      <li><a href="#">Ils nous font confiance</a></li>
+      <li><a href="#">Nos services</a></li>
+      <li><a href="#">Ils parlents de nous</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</div>
