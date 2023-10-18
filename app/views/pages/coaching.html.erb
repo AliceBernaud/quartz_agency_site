@@ -1,0 +1,8 @@
+<h1>J'ai créé une page coaching, comment j'ai fait ?</h1>
+
+<p>Je crée une route dans le fichier routes.rb : get 'coaching', to: 'pages#coaching'</p>
+<p>dans mon controller Pages, j'ai créé une méthode coaching</p>
+<p>dans ma view, dans le dossier pages, je crée une view coaching.html.erb</p>
+<p>Maintenant je consulte Rails routes dans mon terminal je vois qu'il y a bien une route coaching créée, je n'ai qu a faire link_to 'coaching', coaching_path comme a droite => <%= link_to "coaching", coaching_path %></p>
+
+<p>et si je fais <%= link_to "home", root_path %> je reviens à l'accueil</p>
